@@ -7,8 +7,7 @@ public class CameraManager : MonoBehaviour
     [SerializeField] private GameObject mainCamera;
     [SerializeField] private List<GameObject> Cameras;
     public int currentCameraIndex;
-    public PostProcessVolume nightVision;
-    public PostProcessVolume normalVision;
+    public bool nightVision = false;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created  
@@ -79,8 +78,8 @@ public class CameraManager : MonoBehaviour
 
     public void ToggleNightVision()
     {
-        nightVision.enabled = !nightVision.enabled;
-        normalVision.enabled = !nightVision.enabled;
+        nightVision = !nightVision;
+        Cameras[currentCameraIndex].transform.GetChild(0).gameObject.SetActive(nightVision);
     }
 
 }

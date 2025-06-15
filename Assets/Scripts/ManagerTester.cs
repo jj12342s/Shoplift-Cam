@@ -47,6 +47,10 @@ public class ManagerTester : MonoBehaviour
             {
                 cameraManager.GetComponent<CameraManager>().SwitchToCamera(3);
             }
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                cameraManager.GetComponent<CameraManager>().ToggleNightVision();
+            }
         }
     }
 }
