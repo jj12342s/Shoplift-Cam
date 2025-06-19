@@ -8,7 +8,8 @@ public class CameraManager : MonoBehaviour
     [SerializeField] private List<GameObject> Cameras;
     public int currentCameraIndex;
     public bool nightVision = false;
-
+    public int RecordingCharges = 3;
+    public float RecordingTimer = 5f; 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created  
     void Start()
@@ -41,6 +42,10 @@ public class CameraManager : MonoBehaviour
     }
     public void SwitchToMainCamera()
     {
+        if (nightVision)
+        {
+            ToggleNightVision(); // Turn off night vision if it's active
+        }
         foreach (GameObject camera in Cameras)
         {
             camera.SetActive(false);
@@ -57,29 +62,70 @@ public class CameraManager : MonoBehaviour
     }
     public void AdvanceCameraIndex()
     {
-        currentCameraIndex += 1;
-        // Loop To First Camera if far enough
-        if (currentCameraIndex >= Cameras.Count)
+        // If night vision is not active, allow camera index change
+        if (!nightVision)
         {
-            currentCameraIndex = 0; 
+            currentCameraIndex += 1;
+            // Loop To First Camera if far enough
+            if (currentCameraIndex >= Cameras.Count)
+            {
+                currentCameraIndex = 0;
+            }
+            SwitchToCamera(currentCameraIndex);
         }
-        SwitchToCamera(currentCameraIndex);
+        else
+        {
+            Debug.Log("Cannot change camera while night vision is active");
+        }
     }
     public void RewindCameraIndex()
     {
-        currentCameraIndex -= 1;
-        // Loop To Last Camera if far enough
-        if (currentCameraIndex < 0)
+        // If night vision is not active, allow camera index change
+        if (!nightVision)
         {
-            currentCameraIndex = Cameras.Count - 1; 
+            currentCameraIndex -= 1;
+            // Loop To Last Camera if far enough
+            if (currentCameraIndex < 0)
+            {
+                currentCameraIndex = Cameras.Count - 1;
+            }
+            SwitchToCamera(currentCameraIndex);
         }
-        SwitchToCamera(currentCameraIndex);
+        else
+        {
+            Debug.Log("Cannot change camera while night vision is active");
+        }
+        
     }
 
     public void ToggleNightVision()
     {
-        nightVision = !nightVision;
-        Cameras[currentCameraIndex].transform.GetChild(0).gameObject.SetActive(nightVision);
+        if (RecordingCharges > 0 && !nightVision)
+        {
+            RecordingCharges -= 1;
+            Debug.Log("Recording Activated");
+            nightVision = !nightVision;
+            Cameras[currentCameraIndex].transform.GetChild(0).gameObject.SetActive(nightVision);
+            Invoke("ToggleNightVision", RecordingTimer);
+        }
+        else
+        {
+            if (nightVision)
+            {
+                Debug.Log("Night Vision Deactivated");
+                nightVision = false;
+                Cameras[currentCameraIndex].transform.GetChild(0).gameObject.SetActive(false);
+                CancelInvoke("ToggleNightVision");
+            }
+            else if (RecordingCharges <= 0)
+            {
+                Debug.Log("No Recording Charges Left");
+            }
+
+
+        }
+        
+
     }
 
 }
