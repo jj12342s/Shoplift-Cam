@@ -1,0 +1,363 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.28f1 (f336aca0cab5) revision 15939244'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32656 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/user/OneDrive/Desktop/gamesnmemesgithub/Shoplift-Cam
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50839
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/user/OneDrive/Desktop/gamesnmemesgithub/Shoplift-Cam
+C:/Users/user/OneDrive/Desktop/gamesnmemesgithub/Shoplift-Cam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [55792]  Target information:
+
+Player connection [55792]  * "[IP] 192.168.87.59 [Port] 0 [Flags] 2 [Guid] 3970501444 [EditorId] 3970501444 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U3L12SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [55792] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [55792] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.28f1 (f336aca0cab5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/OneDrive/Desktop/gamesnmemesgithub/Shoplift-Cam/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 560 Series (ID=0x67ff)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   31.0.21921.1000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.022416 seconds.
+- Loaded All Assemblies, in  1.446 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.672 seconds
+Domain Reload Profiling: 2090ms
+	BeginReloadAssembly (709ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (175ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (680ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (414ms)
+			TypeCache.Refresh (411ms)
+				TypeCache.ScanAssembly (373ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (673ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (607ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (73ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (16ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.683 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.785 seconds
+Domain Reload Profiling: 2440ms
+	BeginReloadAssembly (789ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (138ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (603ms)
+		LoadAssemblies (730ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (66ms)
+			BuildScriptInfoCaches (22ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (786ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (52ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 599 unused Assets / (1.8 MB). Loaded Objects now: 1216.
+Memory consumption went from 98.3 MB to 96.4 MB.
+Total: 4.982300 ms (FindLiveObjects: 0.134100 ms CreateObjectMapping: 0.035400 ms MarkObjects: 4.218700 ms  DeleteObjects: 0.593100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 466711.666062 seconds.
+  path: Assets/Enviroment/enviroment/Office building/meshes/Noteblock.fbx
+  artifactKey: Guid(2ca852ab7cfc026498325cc246a83f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/meshes/Noteblock.fbx using Guid(2ca852ab7cfc026498325cc246a83f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00a83d8a7358b5865984b79b3ade5299') in 0.3617272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Enviroment/enviroment/Office building/meshes/lobby table.fbx
+  artifactKey: Guid(c5576d09fbfa4774e937eb472ececd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/meshes/lobby table.fbx using Guid(c5576d09fbfa4774e937eb472ececd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '245750a1dd60e6623d1bcda6e31210e5') in 0.0472201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Enviroment/enviroment/Office building/meshes/Plant 2.fbx
+  artifactKey: Guid(c657c26c391a08e4ea339e8b016fa339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/meshes/Plant 2.fbx using Guid(c657c26c391a08e4ea339e8b016fa339) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3dd8808e93b44cf3fa896e356444f3b') in 0.0511182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Enviroment/enviroment/Office building/meshes/Bottle.fbx
+  artifactKey: Guid(e69495662f412aa44bc9e23bbcd5545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/meshes/Bottle.fbx using Guid(e69495662f412aa44bc9e23bbcd5545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b8bc28e8d753d3305c9a98f77b94a3f') in 0.0366765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Enviroment/enviroment/Office building/Material lamps evelator/Lamp B.mat
+  artifactKey: Guid(30d6b547b23512c4cba425e1f1215169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/Material lamps evelator/Lamp B.mat using Guid(30d6b547b23512c4cba425e1f1215169) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f211b9a2ed3c7cf180dfab3addaa2626') in 0.0338695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Enviroment/enviroment/Office building/material props/Kitchen Sink.mat
+  artifactKey: Guid(aa4f50836f038944587bf5f2dadbaf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/material props/Kitchen Sink.mat using Guid(aa4f50836f038944587bf5f2dadbaf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2aa0a76812338511c2711791eecdc867') in 0.033595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.870761 seconds.
+  path: Assets/Enviroment/enviroment/Office building/material props/Fridge.mat
+  artifactKey: Guid(aa73e3d5f0986f84ea786e033c686da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/material props/Fridge.mat using Guid(aa73e3d5f0986f84ea786e033c686da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b699db0a7ec66f6ed636f6af5ec5d34a') in 0.0261757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Enviroment/enviroment/Office building/material props/Kindergarten carpet.mat
+  artifactKey: Guid(0241d866c26a1054e962d79a10ab62ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/material props/Kindergarten carpet.mat using Guid(0241d866c26a1054e962d79a10ab62ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '242c666a400b3c23b267506298577b32') in 0.0283984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002621 seconds.
+  path: Assets/Enviroment/enviroment/Office building/materials Building/Facade 2.mat
+  artifactKey: Guid(4c64c0fd4b4e2354889c2e5081ad695e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/materials Building/Facade 2.mat using Guid(4c64c0fd4b4e2354889c2e5081ad695e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f159aa3cd30ea9721914ce7ae68fc6b2') in 0.0499505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Enviroment/enviroment/Office building/material props/File box grey.mat
+  artifactKey: Guid(e75cd6b779025fc45afeb37e003880f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/material props/File box grey.mat using Guid(e75cd6b779025fc45afeb37e003880f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20dfff1bdea8724d1ffcc8a12ffb5baf') in 0.032793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Enviroment/enviroment/Office building/material props/Climb poles.mat
+  artifactKey: Guid(f4a653cf4f5715b49b9f918c5e8a8648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/material props/Climb poles.mat using Guid(f4a653cf4f5715b49b9f918c5e8a8648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '316207ee2e81ca0dbae4cfaeff90ffff') in 0.0291311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Enviroment/enviroment/Office building/material props/exit sign.mat
+  artifactKey: Guid(8832655e5f5b4994dab005b96f8bcaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/material props/exit sign.mat using Guid(8832655e5f5b4994dab005b96f8bcaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '927037a55177592133b8636c46fdcf63') in 0.0296683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Enviroment/enviroment/Office building/material props/conference table.mat
+  artifactKey: Guid(c122d69c16be56845bb380e32455cd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/material props/conference table.mat using Guid(c122d69c16be56845bb380e32455cd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09deeec17f31bc0ee0cff06d6c67fa79') in 0.0276095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Enviroment/enviroment/Office building/material props/Computer.mat
+  artifactKey: Guid(1382d7cb7b45e8642aa34d7fe2c655f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/material props/Computer.mat using Guid(1382d7cb7b45e8642aa34d7fe2c655f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b50ac3e133b19289c6d969cab06c66ca') in 0.0266769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Enviroment/enviroment/Office building/materials Building/Evelator numbers.mat
+  artifactKey: Guid(51919198c43813348910f357eb609e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/materials Building/Evelator numbers.mat using Guid(51919198c43813348910f357eb609e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd76bf51c2fdfdcab305d5bdadf9ce2f0') in 0.0251849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.539484 seconds.
+  path: Assets/Enviroment/enviroment/Office building/material props/carton.mat
+  artifactKey: Guid(ebb6120b736e62840bb1deccf023bfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/material props/carton.mat using Guid(ebb6120b736e62840bb1deccf023bfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db6113f4f1b9eabc9de672b44da65504') in 0.0291748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.344 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.646 seconds
+Domain Reload Profiling: 2918ms
+	BeginReloadAssembly (506ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (146ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (155ms)
+	LoadAllAssembliesAndSetupDomain (432ms)
+		LoadAssemblies (720ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (65ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (53ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1647ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1122ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (239ms)
+			ProcessInitializeOnLoadAttributes (581ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (166ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 597 unused Assets / (1.8 MB). Loaded Objects now: 1261.
+Memory consumption went from 90.7 MB to 88.9 MB.
+Total: 12.550300 ms (FindLiveObjects: 0.159400 ms CreateObjectMapping: 0.086000 ms MarkObjects: 10.966200 ms  DeleteObjects: 1.336400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

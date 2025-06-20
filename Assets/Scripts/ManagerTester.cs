@@ -23,11 +23,11 @@ public class ManagerTester : MonoBehaviour
         }
         if (camerasActive)
         {
-            if (Input.GetKeyDown(KeyCode.A))
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
             {
                 cameraManager.GetComponent<CameraManager>().RewindCameraIndex();
             }
-            if (Input.GetKeyDown(KeyCode.D))
+            if (Input.GetKeyDown(KeyCode.RightArrow))
             {
                 cameraManager.GetComponent<CameraManager>().AdvanceCameraIndex();
             }
