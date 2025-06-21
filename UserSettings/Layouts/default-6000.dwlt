@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 323
+  controlID: 38
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -178,7 +178,7 @@ MonoBehaviour:
     height: 36
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: Default
+  m_LastLoadedLayoutName: 
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 324
+  controlID: 39
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 325
+  controlID: 40
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -326,7 +326,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Enviroment/enviroment/Office building/scene
+    - Assets/AK Studio Art/Surveillance Camera/Prefabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -336,16 +336,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Enviroment/enviroment/Office building/scene
+  - Assets/AK Studio Art/Surveillance Camera/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mrchi\OneDrive\Documents\GitHub\Shoplift-Cam
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 403c0100
-    m_LastClickedID: 80960
-    m_ExpandedIDs: 0000000028540000c43b0100fa3b0100263c010000ca9a3bffffff7f
+    m_SelectedIDs: c62c0100
+    m_LastClickedID: 76998
+    m_ExpandedIDs: 00000000602a01008a2b0100a42b0100a62b0100c82c0100d42c010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -374,7 +374,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002854000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000602a0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -402,7 +402,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -520,9 +520,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: c62c0100
       m_LastClickedID: 0
-      m_ExpandedIDs: e615fffff6c0fffff8c0ffff62efffff42fbffff
+      m_ExpandedIDs: dcfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1210,9 +1210,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 86.27134, y: 3.5543861, z: 48.440475}
+    m_Target: {x: 73.80804, y: 2.9363146, z: 45.948387}
     speed: 2
-    m_Value: {x: 86.271355, y: 3.5543861, z: 48.440475}
+    m_Value: {x: 73.80804, y: 2.9363146, z: 45.948387}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1258,9 +1258,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0092704315, y: 0.073174044, z: -0.0008722831, w: -0.99733865}
+    m_Target: {x: 0.0057711396, y: -0.7724406, z: 0.007307149, w: 0.6351272}
     speed: 2
-    m_Value: {x: -0.007766751, y: 0.0821432, z: -0.0008323761, w: -0.99658996}
+    m_Value: {x: 0.0048182677, y: -0.7723976, z: 0.0061479285, w: 0.6350914}
   m_Size:
     m_Target: 10
     speed: 2
