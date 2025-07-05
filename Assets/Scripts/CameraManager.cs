@@ -1,20 +1,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
-
+using UnityEngine.UI;
 public class CameraManager : MonoBehaviour
 {
     [SerializeField] private GameObject mainCamera;
     [SerializeField] private List<GameObject> Cameras;
+    [SerializeField] private UIManager uiManager;
     public int currentCameraIndex;
     public bool nightVision = false;
     public int RecordingCharges = 3;
-    public float RecordingTimer = 5f; 
+    public float RecordingTimer = 5f;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created  
     void Start()
     {
-       foreach (GameObject camera in Cameras)
+        foreach (GameObject camera in Cameras)
         {
             camera.SetActive(false);
         }
@@ -25,7 +27,8 @@ public class CameraManager : MonoBehaviour
     {
         Debug.Log("Entering cameras");
         SwitchToCamera(cameraIndex);
-    }    
+        uiManager.ShowCharges(RecordingCharges);
+    }
     public void SwitchToCamera(int cameraIndex)
     {
 
@@ -50,7 +53,7 @@ public class CameraManager : MonoBehaviour
         {
             camera.SetActive(false);
         }
-       
+
         mainCamera.SetActive(true);
         currentCameraIndex = -1;
     }
@@ -58,6 +61,7 @@ public class CameraManager : MonoBehaviour
     {
         Debug.Log("Exiting cameras");
         SwitchToMainCamera();
+        uiManager.HideCharges();
         //Something special can be done here when exiting cameras like playing a sound or allowing a jumpscare
     }
     public void AdvanceCameraIndex()
@@ -95,14 +99,14 @@ public class CameraManager : MonoBehaviour
         {
             Debug.Log("Cannot change camera while night vision is active");
         }
-        
-    }
 
+    }
     public void ToggleNightVision()
     {
         if (RecordingCharges > 0 && !nightVision)
         {
             RecordingCharges -= 1;
+            uiManager.ShowCharges(RecordingCharges);
             Debug.Log("Recording Activated");
             nightVision = !nightVision;
             Cameras[currentCameraIndex].transform.GetChild(0).gameObject.SetActive(nightVision);
@@ -124,8 +128,17 @@ public class CameraManager : MonoBehaviour
 
 
         }
-        
+
 
     }
-
+    public void SetChargeAmount(int amount)
+    {
+        RecordingCharges = amount; // Reset to default or set to a specific value
+        uiManager.ShowCharges(RecordingCharges); // Update UI to reflect the new charge amount
+    }
+    public void AddCharges(int amount)
+    {
+        RecordingCharges += amount; // Return the current charge amount
+        uiManager.ShowCharges(RecordingCharges); // Update UI to reflect the new charge amount
+    }
 }
