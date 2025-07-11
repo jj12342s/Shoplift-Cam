@@ -1,29 +1,29 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.28f1 (f336aca0cab5) revision 15939244'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32600 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16253 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.28f1\Editor\Unity.exe
+D:\Users\Johnn\6000.0.28f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/mrchi/OneDrive/Documents/GitHub/Shoplift-Cam
+D:/Users/Johnn/Desktop/Unity Projects/Shoplift Cam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51065
+59809
 -job-worker-count
-13
+7
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Users/mrchi/OneDrive/Documents/GitHub/Shoplift-Cam
-C:/Users/mrchi/OneDrive/Documents/GitHub/Shoplift-Cam
+Successfully changed project path to: D:/Users/Johnn/Desktop/Unity Projects/Shoplift Cam
+D:/Users/Johnn/Desktop/Unity Projects/Shoplift Cam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,13 +59,13 @@ C:/Users/mrchi/OneDrive/Documents/GitHub/Shoplift-Cam
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4928]  Target information:
+Player connection [25244]  Target information:
 
-Player connection [4928]  * "[IP] 192.168.86.51 [Port] 0 [Flags] 2 [Guid] 3614122212 [EditorId] 3614122212 [Version] 1048832 [Id] WindowsEditor(7,GradTrophy23) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [25244]  * "[IP] 192.168.1.129 [Port] 0 [Flags] 2 [Guid] 965338725 [EditorId] 965338725 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CIHAIR6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4928] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [4928] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 13
+Player connection [25244] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25244] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
@@ -75,59 +75,61 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.28f1 (f336aca0cab5)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/mrchi/OneDrive/Documents/GitHub/Shoplift-Cam/Assets
+[Subsystems] Discovering subsystems at path D:/Users/Johnn/6000.0.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/Johnn/Desktop/Unity Projects/Shoplift Cam/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   NVIDIA
-    VRAM:     11855 MB
+    VRAM:     12115 MB
     Driver:   32.0.15.7652
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Mono path[0] = 'D:/Users/Johnn/6000.0.28f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Users/Johnn/6000.0.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Users/Johnn/6000.0.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001990 seconds.
-- Loaded All Assemblies, in  0.248 seconds
+Register platform support module: D:/Users/Johnn/6000.0.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Users/Johnn/6000.0.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002727 seconds.
+- Loaded All Assemblies, in  0.459 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.204 seconds
-Domain Reload Profiling: 450ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.368 seconds
+Domain Reload Profiling: 827ms
+	BeginReloadAssembly (196ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (102ms)
-		LoadAssemblies (81ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (196ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (100ms)
-			TypeCache.Refresh (99ms)
-				TypeCache.ScanAssembly (89ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (148ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (204ms)
+	FinalizeReload (368ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (183ms)
+		SetupLoadedEditorAssemblies (339ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (119ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -136,515 +138,610 @@ Domain Reload Profiling: 450ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.414 seconds
-Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.746 seconds
+Refreshing native plugins compatible for Editor in 0.14 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.266 seconds
-Domain Reload Profiling: 678ms
-	BeginReloadAssembly (258ms)
+- Finished resetting the current domain, in  0.509 seconds
+Domain Reload Profiling: 1255ms
+	BeginReloadAssembly (498ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (100ms)
-		LoadAssemblies (136ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (316ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (25ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (11ms)
-			BuildScriptInfoCaches (6ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (266ms)
+		AnalyzeDomain (42ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (20ms)
+			BuildScriptInfoCaches (9ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (509ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (144ms)
+		SetupLoadedEditorAssemblies (280ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (13ms)
-			ProcessInitializeOnLoadAttributes (101ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (20ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 940 unused Assets / (2.1 MB). Loaded Objects now: 1573.
-Memory consumption went from 106.4 MB to 104.3 MB.
-Total: 6.378100 ms (FindLiveObjects: 0.158200 ms CreateObjectMapping: 0.039300 ms MarkObjects: 5.341700 ms  DeleteObjects: 0.837000 ms)
+Unloading 940 unused Assets / (2.0 MB). Loaded Objects now: 1573.
+Memory consumption went from 105.6 MB to 103.6 MB.
+Total: 11.881900 ms (FindLiveObjects: 0.451200 ms CreateObjectMapping: 0.102700 ms MarkObjects: 10.566600 ms  DeleteObjects: 0.759800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 501606.453891 seconds.
-  path: Assets/PreFabs/NightVision.prefab
-  artifactKey: Guid(bbd1e9e81525dee468f9958583c59ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFabs/NightVision.prefab using Guid(bbd1e9e81525dee468f9958583c59ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f0d03c8f6b07e6ed89f5c4da6806e48') in 0.0438921 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 12163.526406 seconds.
+  path: Assets/PreFabs/Shield Metall rust 3.prefab
+  artifactKey: Guid(494d0eba3f139b849ad617097f643941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFabs/Shield Metall rust 3.prefab using Guid(494d0eba3f139b849ad617097f643941) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2743819c69a0509896155c6af8cdee6f') in 0.477361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 478
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PreFabs
-  artifactKey: Guid(841cfc37f83b74546a07d6d2dc9e7425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFabs using Guid(841cfc37f83b74546a07d6d2dc9e7425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a9c687cab2e48ac1bf30e2d42ba4500') in 0.0005227 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.532 seconds
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.512 seconds
+Domain Reload Profiling: 1044ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (512ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (266ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (19ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 938 unused Assets / (1.9 MB). Loaded Objects now: 1582.
+Memory consumption went from 94.9 MB to 93.1 MB.
+Total: 6.648900 ms (FindLiveObjects: 0.141300 ms CreateObjectMapping: 0.080500 ms MarkObjects: 5.705700 ms  DeleteObjects: 0.719800 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 1.878519 seconds.
-  path: Assets/Enviroment
-  artifactKey: Guid(d6a4ce16a45975046b3beddfcec62522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment using Guid(d6a4ce16a45975046b3beddfcec62522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bd487c294733c80c7f81e0cb2d6c172') in 0.0004284 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.082786 seconds.
-  path: Assets/Enviroment/enviroment
-  artifactKey: Guid(49e9945b9626f6a4f8a6f76948486bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment using Guid(49e9945b9626f6a4f8a6f76948486bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86a225bb26222162a835f087d5614a07') in 0.0004179 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.580465 seconds.
-  path: Assets/Enviroment/enviroment/Office building
-  artifactKey: Guid(441857540886ba24495c5d2834d98898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building using Guid(441857540886ba24495c5d2834d98898) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f1e2072cb43de980119d8c222e49c47') in 0.0004166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.246882 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs
-  artifactKey: Guid(67b7972e9e22a2741bc2ca125a50f730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs using Guid(67b7972e9e22a2741bc2ca125a50f730) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ed07c45daccb9cd00743246780fdd95') in 0.0004246 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064200 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/ABC puzzle floor Prefab.prefab
-  artifactKey: Guid(91ced13d3de8aaf4998bdbb38fbf3a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/ABC puzzle floor Prefab.prefab using Guid(91ced13d3de8aaf4998bdbb38fbf3a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ffb8fa743a5e55f9a13cd0bf7027f8c') in 0.0653008 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/computer mouse Prefab.prefab
-  artifactKey: Guid(3ef7c60670bb53a4eb1d53dce37111c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/computer mouse Prefab.prefab using Guid(3ef7c60670bb53a4eb1d53dce37111c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba7f9da7f3c155d0c088a36b7f2f4da7') in 0.0114257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Climb poles Prefab.prefab
-  artifactKey: Guid(9cae3c9688e051e4fa6c097ea2d17a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Climb poles Prefab.prefab using Guid(9cae3c9688e051e4fa6c097ea2d17a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21d17fc303ea76479e7e152bba18f827') in 0.0116489 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/carton Prefab.prefab
-  artifactKey: Guid(dd51500d075471044aa9309d772f5b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/carton Prefab.prefab using Guid(dd51500d075471044aa9309d772f5b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '162fe8c6d8094746ef75a4042efd769c') in 0.0097755 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/elevator cabin.prefab
-  artifactKey: Guid(76e8d021eb5836e49bfcce87afdae867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/elevator cabin.prefab using Guid(76e8d021eb5836e49bfcce87afdae867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c2eb0206b49d8b3e1cfd4ffe30c9e3c') in 0.0197587 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/File box grey Prefab.prefab
-  artifactKey: Guid(b4a91fe9e339e2f46bdad1200352f491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/File box grey Prefab.prefab using Guid(b4a91fe9e339e2f46bdad1200352f491) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abaf24339069712b5ca58c298fc78032') in 0.0115108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/filing A prefab.prefab
-  artifactKey: Guid(9fce8288c1c16de43addab556737d0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/filing A prefab.prefab using Guid(9fce8288c1c16de43addab556737d0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46a2e50b74750b2d9b4370b9a53ba7dc') in 0.0093084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/File cupboard prefab.prefab
-  artifactKey: Guid(915dd1cfab33f5842802f4774a95100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/File cupboard prefab.prefab using Guid(915dd1cfab33f5842802f4774a95100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c51e737569eb331211678b66c174eebe') in 0.0114003 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/File box blue Prefab.prefab
-  artifactKey: Guid(0cad143f02eeb25428ce49d3d8edf3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/File box blue Prefab.prefab using Guid(0cad143f02eeb25428ce49d3d8edf3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fe47b828cb9bdad2a8e5ace4a96c1fe') in 0.0102384 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Kindergarten chair Prefab.prefab
-  artifactKey: Guid(f06dcf5fd562e964b8e8bcc5537bf2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Kindergarten chair Prefab.prefab using Guid(f06dcf5fd562e964b8e8bcc5537bf2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b9b79d1aee9851be93f6acf7af88ccf') in 0.010307 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Fridge Prefab.prefab
-  artifactKey: Guid(a9601c421be01af42bdaca1eec89db93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Fridge Prefab.prefab using Guid(a9601c421be01af42bdaca1eec89db93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc876f17fa7c7d99b4405515432c4889') in 0.0120098 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Kindergarten picture wall Prefab.prefab
-  artifactKey: Guid(dc8d908c039573d4f989fc0931f5616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Kindergarten picture wall Prefab.prefab using Guid(dc8d908c039573d4f989fc0931f5616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac06687b1c3936c95ffd0a4e4cc45986') in 0.0118406 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Folder black prefab.prefab
-  artifactKey: Guid(0d02ca7916ae6944a8fd275d889a8ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Folder black prefab.prefab using Guid(0d02ca7916ae6944a8fd275d889a8ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5e66f3c81256750f8641842e74464c4') in 0.0126076 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Lamp B Prefab.prefab
-  artifactKey: Guid(68ded745d66b56e47a0d9f8bab900b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Lamp B Prefab.prefab using Guid(68ded745d66b56e47a0d9f8bab900b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '798934c6026b92280d189993ce2e61cd') in 0.0121878 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Little cactus 1 Prefab.prefab
-  artifactKey: Guid(2ff73ca776b2c2241834c15caef9521d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Little cactus 1 Prefab.prefab using Guid(2ff73ca776b2c2241834c15caef9521d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f73dc8803021de8e957c588b01e787f5') in 0.0095255 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Locker Prefab.prefab
-  artifactKey: Guid(389090492d551b942b78aac876151bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Locker Prefab.prefab using Guid(389090492d551b942b78aac876151bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '621580f029b732bf43f757435901a0d4') in 0.0155594 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Mirror bath Prefab 1.prefab
-  artifactKey: Guid(5c9c641e44b2ebe44814379a32f31e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Mirror bath Prefab 1.prefab using Guid(5c9c641e44b2ebe44814379a32f31e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8db65f12a7e3bef9d0d7619b2b939038') in 0.0099042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/conference table Prefab.prefab
-  artifactKey: Guid(89f109fde965876458c9ca5b3563f1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/conference table Prefab.prefab using Guid(89f109fde965876458c9ca5b3563f1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75a1b8ee37221a338bea3943f20f7ea7') in 0.009701 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/paper box prefab.prefab
-  artifactKey: Guid(d7f6436fd43ddf442bf1f97390eb70a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/paper box prefab.prefab using Guid(d7f6436fd43ddf442bf1f97390eb70a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2e57254c5dd5879f0a668a47c97e8ed') in 0.011936 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/partition wall Prefab.prefab
-  artifactKey: Guid(5df6ef8249eb44e43a04db3cf2824564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/partition wall Prefab.prefab using Guid(5df6ef8249eb44e43a04db3cf2824564) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cde8408269966ecf114e33919e806b4') in 0.0097457 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/plant 1 Prefab.prefab
-  artifactKey: Guid(ebb3fb0024366fa48b1a54ce15e27f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/plant 1 Prefab.prefab using Guid(ebb3fb0024366fa48b1a54ce15e27f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0407436b2ac85db7d6b072308cf4b4ef') in 0.0141745 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Kindergarten Cupboard B Prefab.prefab
-  artifactKey: Guid(da44c91f93b60e34d892f29da8410ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Kindergarten Cupboard B Prefab.prefab using Guid(da44c91f93b60e34d892f29da8410ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0f4d3e59f58a3113b586c62b69ed253') in 0.0099825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Securety desk Prefab.prefab
-  artifactKey: Guid(4d201199ac968b44084b76f5fa59d1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Securety desk Prefab.prefab using Guid(4d201199ac968b44084b76f5fa59d1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '964f2d64ef047958da80e298d76cfd8e') in 0.0107421 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/shelving A prefab.prefab
-  artifactKey: Guid(382313487c565f14a87f1d0eb5501713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/shelving A prefab.prefab using Guid(382313487c565f14a87f1d0eb5501713) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3a6ae250c4695a37c26a037c0ca2d45') in 0.0154015 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Storage box grey prefab.prefab
-  artifactKey: Guid(2d613286f37c7964b8998d01106aad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Storage box grey prefab.prefab using Guid(2d613286f37c7964b8998d01106aad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bb3793e11d7e4866420d13e7f333504') in 0.009212 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Storage sign Prefab.prefab
-  artifactKey: Guid(731e7a769243e0e438355e5d96f2b365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Storage sign Prefab.prefab using Guid(731e7a769243e0e438355e5d96f2b365) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11ba5c345ffc3ddd551e1991c915c6ad') in 0.0096427 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Table Prefab.prefab
-  artifactKey: Guid(522b38699cfba0647824ba6d7d12884a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Table Prefab.prefab using Guid(522b38699cfba0647824ba6d7d12884a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce7efe5e7ea51e93993581275120dce8') in 0.010588 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Toilet sign Prefab.prefab
-  artifactKey: Guid(60703c96bc9c6524ab54de501c41d6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Toilet sign Prefab.prefab using Guid(60703c96bc9c6524ab54de501c41d6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76dffe7ea2c6946724e776217fb1f5bb') in 0.0085186 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Keyboard prefab.prefab
-  artifactKey: Guid(ca54b7dbf038dd846af9f43d0b03a8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Keyboard prefab.prefab using Guid(ca54b7dbf038dd846af9f43d0b03a8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfcdf08e365536ebaf2cd50061160cf0') in 0.0092086 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Kitchen Table B Prefab.prefab
-  artifactKey: Guid(089237fd08f11db42ab1767dcdf3b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Kitchen Table B Prefab.prefab using Guid(089237fd08f11db42ab1767dcdf3b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '282353c227f17e227ca28276314a90ef') in 0.010798 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Cupboard kitchen Prefab.prefab
-  artifactKey: Guid(10c5f9ea0e8facd4283453ecc16e0226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Cupboard kitchen Prefab.prefab using Guid(10c5f9ea0e8facd4283453ecc16e0226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dce6dad903757430eda1550e2672a3df') in 0.0129912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Clock Prefab.prefab
-  artifactKey: Guid(f95eb02e4b4e8cc42938637d6ff3c02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Clock Prefab.prefab using Guid(f95eb02e4b4e8cc42938637d6ff3c02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee494876c71cb47ffb1b7b3c149ee8c6') in 0.0115254 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Kitchen oven Prefab.prefab
-  artifactKey: Guid(b37815e008a205f44944d74b1fb1a477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Kitchen oven Prefab.prefab using Guid(b37815e008a205f44944d74b1fb1a477) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b03507efe1b866b5de53a407a9a40c4') in 0.0188181 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Little cactus 2 Prefab.prefab
-  artifactKey: Guid(f05a2931e2234bf479d07b46f2cc0284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Little cactus 2 Prefab.prefab using Guid(f05a2931e2234bf479d07b46f2cc0284) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dc78192613cd3b910bb0ea4ec95f03e') in 0.0111573 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Kitchen Chair Prefab.prefab
-  artifactKey: Guid(aa7a4ca48de4e4f4f816f5592dbbca1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Kitchen Chair Prefab.prefab using Guid(aa7a4ca48de4e4f4f816f5592dbbca1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '096d3f3f5433462ba11b8fe235fc755c') in 0.0128462 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/mattress Prefab.prefab
-  artifactKey: Guid(7a91100f34a8ab84aaa1a2fb0014324d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/mattress Prefab.prefab using Guid(7a91100f34a8ab84aaa1a2fb0014324d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5fac5a49a3e55565a770a88b1f2bb12') in 0.0112736 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Storage box red prefab.prefab
-  artifactKey: Guid(d155e6b1b5bb6ee4ab0dd45db69cb41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Storage box red prefab.prefab using Guid(d155e6b1b5bb6ee4ab0dd45db69cb41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ac9bb2bfe312bb977386166c0d596a1') in 0.0119877 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Toilet Prefab.prefab
-  artifactKey: Guid(d5b80a7f12599104087095e8c5f6baf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Toilet Prefab.prefab using Guid(d5b80a7f12599104087095e8c5f6baf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c61dee9bc8d26845e6592df5b4a7de3') in 0.0141405 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Trash bin Prefab.prefab
-  artifactKey: Guid(4e0bc8274a648084d99f2c41d46f9a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Trash bin Prefab.prefab using Guid(4e0bc8274a648084d99f2c41d46f9a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e6fe920eca5e4e663f1dc65b967db1d') in 0.0110092 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/paper Prefab.prefab
-  artifactKey: Guid(f8ec7b4856b8eb747ab5935cec767b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/paper Prefab.prefab using Guid(f8ec7b4856b8eb747ab5935cec767b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38333f7356af8724b127e8215316cd66') in 0.0110537 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/table B Prefab.prefab
-  artifactKey: Guid(54b07283592fc8e45a857de30c6fac3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/table B Prefab.prefab using Guid(54b07283592fc8e45a857de30c6fac3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a8a2f88f06d02beab17aaa7216b3a0c') in 0.0124019 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Noteblock Prefab.prefab
-  artifactKey: Guid(ff8234404b4936646a8c285cafb4e648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Noteblock Prefab.prefab using Guid(ff8234404b4936646a8c285cafb4e648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '806dee73b76b9db9f29bf5d6803496ee') in 0.0117635 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Office chair Prefab.prefab
-  artifactKey: Guid(c1e5af2ff42787c4da9691a81d25269e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Office chair Prefab.prefab using Guid(c1e5af2ff42787c4da9691a81d25269e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73fb864836aba1ef5117104fa5d964db') in 0.0130869 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/urinal prefab.prefab
-  artifactKey: Guid(10c87984ebe07d049b0c3e98d260e17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/urinal prefab.prefab using Guid(10c87984ebe07d049b0c3e98d260e17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c61a946d01918e10bc8dd401c6329831') in 0.0121204 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Metal cupboard Prefab.prefab
-  artifactKey: Guid(807f5c2ba3781b842bf272cf8b1939ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Metal cupboard Prefab.prefab using Guid(807f5c2ba3781b842bf272cf8b1939ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5de8ffcbbeaf1a34cd5cd2340d298ece') in 0.0132086 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/water dispenser prefab.prefab
-  artifactKey: Guid(aa937497f8053b449b8c7563868401e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/water dispenser prefab.prefab using Guid(aa937497f8053b449b8c7563868401e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99ee3440ca8d4b54861a76558a87cb63') in 0.0141529 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Printer A prefab.prefab
-  artifactKey: Guid(376d9b5720043db4e869a7ef729a88a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Printer A prefab.prefab using Guid(376d9b5720043db4e869a7ef729a88a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57296499f6eea8bb92a341480fd85593') in 0.0157992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Coffee cup Prefab.prefab
-  artifactKey: Guid(a42b76a8ae68dad4fb4fea3eda1ed3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Coffee cup Prefab.prefab using Guid(a42b76a8ae68dad4fb4fea3eda1ed3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf646b3cb60845e463b88e2b67fb55be') in 0.014845 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Toilet cabine Prefab.prefab
-  artifactKey: Guid(14f4f8b01b4d437489dd51800622e198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Toilet cabine Prefab.prefab using Guid(14f4f8b01b4d437489dd51800622e198) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a549d4e300ea68a315c4013fc81ac1c2') in 0.0138742 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Couch office 2 Prefab.prefab
-  artifactKey: Guid(c928f883aa7cdcf41a6faa362ed971bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Couch office 2 Prefab.prefab using Guid(c928f883aa7cdcf41a6faa362ed971bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd42167bd24f6eb1ed265462ab58a23d') in 0.0115774 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Computer Prefab.prefab
-  artifactKey: Guid(aa8c32ebce8c36744ba55c97b8513148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Computer Prefab.prefab using Guid(aa8c32ebce8c36744ba55c97b8513148) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3476f87a890fc99b21676af6dd2994c') in 0.0135969 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Enviroment/enviroment/Office building/Prefabs/Plant 3 Prefab.prefab
-  artifactKey: Guid(bb4ac9382c724a74b9dd82d157a42bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Plant 3 Prefab.prefab using Guid(bb4ac9382c724a74b9dd82d157a42bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fdcd7dcecb2bf18b5c0bbfeba200fef') in 0.0109188 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
-
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

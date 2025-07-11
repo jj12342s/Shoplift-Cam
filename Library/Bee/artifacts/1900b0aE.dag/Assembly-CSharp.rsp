@@ -388,8 +388,8 @@
 "Assets/Enviroment/enviroment/Office building/scripts/pass_on_parent.cs"
 "Assets/Scripts/CameraManager.cs"
 "Assets/Scripts/ManagerTester.cs"
+"Assets/Scripts/UIManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
-"Assets/UIManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

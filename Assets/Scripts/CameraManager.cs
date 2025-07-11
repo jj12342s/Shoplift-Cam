@@ -109,7 +109,7 @@ public class CameraManager : MonoBehaviour
             uiManager.ShowCharges(RecordingCharges);
             Debug.Log("Recording Activated");
             nightVision = !nightVision;
-            Cameras[currentCameraIndex].transform.GetChild(0).gameObject.SetActive(nightVision);
+            Cameras[currentCameraIndex].transform.GetChild(1).gameObject.SetActive(nightVision);
             Invoke("ToggleNightVision", RecordingTimer);
         }
         else
@@ -118,7 +118,7 @@ public class CameraManager : MonoBehaviour
             {
                 Debug.Log("Night Vision Deactivated");
                 nightVision = false;
-                Cameras[currentCameraIndex].transform.GetChild(0).gameObject.SetActive(false);
+                Cameras[currentCameraIndex].transform.GetChild(1).gameObject.SetActive(false);
                 CancelInvoke("ToggleNightVision");
             }
             else if (RecordingCharges <= 0)
@@ -131,6 +131,7 @@ public class CameraManager : MonoBehaviour
 
 
     }
+    
     public void SetChargeAmount(int amount)
     {
         RecordingCharges = amount; // Reset to default or set to a specific value

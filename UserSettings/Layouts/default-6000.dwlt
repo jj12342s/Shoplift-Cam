@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 15
+  controlID: 41
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 16
+  controlID: 42
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 17
+  controlID: 43
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -273,12 +273,12 @@ MonoBehaviour:
     height: 581
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -326,7 +326,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/PreFabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -336,16 +336,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/PreFabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Users\Johnn\Desktop\Unity Projects\Shoplift Cam
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0cfe0100
-    m_LastClickedID: 130572
-    m_ExpandedIDs: 00000000b0fd0100b2fd010000ca9a3b
+    m_SelectedIDs: 1e350100
+    m_LastClickedID: 79134
+    m_ExpandedIDs: 00000000ae330100b033010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -374,7 +374,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b0fd0100b2fd0100
+    m_ExpandedIDs: 00000000ae330100b0330100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -522,21 +522,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1ee6fefff6effeff2e12ffff20cfffffae400100
+      m_ExpandedIDs: da09faffbc0dfaffe2fcfaffe8fdfaff3ef0fbff1cf1fbff64b5fcff183afeffa43afeff7a19ffff081affffdcfaffff923d0100d23d0100a28f0300aa900300e4900300c2560400fc560400
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Charge 3
-        m_OriginalName: Charge 3
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -74978
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 4}
@@ -1210,9 +1210,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 429.80283, y: 218.59625, z: 90.06764}
+    m_Target: {x: 103.25086, y: 1.7814085, z: 50.558117}
     speed: 2
-    m_Value: {x: 429.80283, y: 218.59625, z: 90.06764}
+    m_Value: {x: 103.25086, y: 1.7814085, z: 50.558117}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1258,13 +1258,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.027309462, y: -0.005807145, z: -0.00000732494, w: 0.9997491}
+    m_Target: {x: 0.053669326, y: 0.6477838, z: -0.046114426, w: 0.75872445}
     speed: 2
-    m_Value: {x: 0.02730567, y: -0.0058063385, z: -0.0000073239225, w: 0.9996103}
+    m_Value: {x: 0.05494002, y: 0.6453403, z: -0.04691486, w: 0.7604712}
   m_Size:
-    m_Target: 316.89285
+    m_Target: 0.8660254
     speed: 2
-    m_Value: 316.89285
+    m_Value: 0.8660495
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1417,9 +1417,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 845
-    width: 1954
-    height: 501
+    y: 660
+    width: 1465
+    height: 374
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
