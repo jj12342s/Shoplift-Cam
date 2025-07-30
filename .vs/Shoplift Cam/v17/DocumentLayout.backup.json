@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|d:\\users\\johnn\\desktop\\unity projects\\shoplift cam\\assets\\tutorialinfo\\scripts\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|d:\\users\\johnn\\desktop\\unity projects\\shoplift cam\\assets\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\assets\\scripts\\managertester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managertester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|solutionrelative:assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +26,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Readme.cs",
+              "DocumentMoniker": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\TutorialInfo\\Scripts\\Readme.cs",
+              "RelativeDocumentMoniker": "Assets\\TutorialInfo\\Scripts\\Readme.cs",
+              "ToolTip": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\TutorialInfo\\Scripts\\Readme.cs",
+              "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\Readme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T19:21:35.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ManagerTester.cs",
               "DocumentMoniker": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\ManagerTester.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ManagerTester.cs",
               "ToolTip": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\ManagerTester.cs",
               "RelativeToolTip": "Assets\\Scripts\\ManagerTester.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB8AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T00:43:09.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\UIManager.cs",
+              "ToolTip": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\UIManager.cs",
+              "RelativeToolTip": "Assets\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T20:23:26.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CameraManager.cs",
               "DocumentMoniker": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\CameraManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraManager.cs",
-              "ToolTip": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\CameraManager.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\CameraManager.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAhAAAAAAAAAA==",
+              "ToolTip": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\CameraManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraManager.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAxwB8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-14T23:44:38.66Z",
               "EditorCaption": ""

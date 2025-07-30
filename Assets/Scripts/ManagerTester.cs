@@ -21,6 +21,16 @@ public class ManagerTester : MonoBehaviour
             }
 
         }
+        if (Input.GetKeyDown(KeyCode.Equals))
+        {
+            
+            if (camerasActive)
+            {
+                cameraManager.AddCharges(1);
+            }
+            
+
+        }
         if (camerasActive)
         {
             if (Input.GetKeyDown(KeyCode.LeftArrow))
