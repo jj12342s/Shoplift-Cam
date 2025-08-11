@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\assets\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\assets\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|d:\\users\\johnn\\desktop\\unity projects\\shoplift cam\\assets\\tutorialinfo\\scripts\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\assets\\scripts\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|d:\\users\\johnn\\desktop\\unity projects\\shoplift cam\\assets\\enviroment\\enviroment\\office building\\read me.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|solutionrelative:assets\\enviroment\\enviroment\\office building\\read me.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\assets\\tutorialinfo\\scripts\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\assets\\scripts\\managertester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A73E05A6-6199-E288-D530-89646E7694B8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managertester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\UIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Read me.txt",
+              "DocumentMoniker": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Enviroment\\enviroment\\Office building\\Read me.txt",
+              "RelativeDocumentMoniker": "Assets\\Enviroment\\enviroment\\Office building\\Read me.txt",
+              "ToolTip": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Enviroment\\enviroment\\Office building\\Read me.txt",
+              "RelativeToolTip": "Assets\\Enviroment\\enviroment\\Office building\\Read me.txt",
+              "ViewState": "AgIAAAQAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-11T19:45:19.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerInteraction.cs",
+              "DocumentMoniker": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\PlayerInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteraction.cs",
+              "ToolTip": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\PlayerInteraction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInteraction.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T16:09:22.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T16:06:00.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "InteractableObject.cs",
+              "DocumentMoniker": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\InteractableObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractableObject.cs",
+              "ToolTip": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\InteractableObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InteractableObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T15:59:41.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Readme.cs",
               "DocumentMoniker": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\TutorialInfo\\Scripts\\Readme.cs",
               "RelativeDocumentMoniker": "Assets\\TutorialInfo\\Scripts\\Readme.cs",
@@ -38,45 +94,7 @@
               "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\Readme.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T19:21:35.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ManagerTester.cs",
-              "DocumentMoniker": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\ManagerTester.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ManagerTester.cs",
-              "ToolTip": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\ManagerTester.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ManagerTester.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwB4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T00:43:09.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\UIManager.cs",
-              "ToolTip": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\UIManager.cs",
-              "RelativeToolTip": "Assets\\UIManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T20:23:26.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CameraManager.cs",
-              "DocumentMoniker": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\CameraManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraManager.cs",
-              "ToolTip": "D:\\Users\\Johnn\\Desktop\\Unity Projects\\Shoplift Cam\\Assets\\Scripts\\CameraManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraManager.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAA4wHEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T23:44:38.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-11T19:21:35.608Z"
             }
           ]
         }

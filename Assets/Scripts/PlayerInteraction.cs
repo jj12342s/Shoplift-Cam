@@ -45,4 +45,12 @@ public class PlayerInteraction : MonoBehaviour
         currentInteractable = null;
         promptUI.SetActive(false);
     }
+    public void EnterLocker(Vector3 lockerLocation)
+    {
+        transform.position = lockerLocation;
+    }
+    public void ExitLocker(Vector3 lockerLocation)
+    {
+
+    }
 }
